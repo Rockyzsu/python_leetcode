@@ -1,8 +1,8 @@
 x=10
 y=20
 z=x^y
+#solution 1
 s=bin(z)
-R=s[2:]
-print R
-for i in R[1:]:
+print type(s)
+for i in s:
     print i
